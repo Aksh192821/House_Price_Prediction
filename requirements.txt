@@ -1,4 +1,4 @@
-(houseenv) F:\Machinelearning_Final_project\House>pip freeze
+
 asgiref==3.2.10
 cycler==0.10.0
 dj-database-url==0.5.0

@@ -23,7 +23,7 @@ def stringToInt(string):
 
 
 #Read the file
-df1 = pd.read_csv(r"C:\Users\preet\Downloads\Datasets (1)\final data set\Bengaluru_House_Data.csv")
+df1 = pd.read_csv(r"F:\Machinelearning_Final_project\House\price\Bengaluru_House_Data.csv")
 
 #shape of data
 df1.shape

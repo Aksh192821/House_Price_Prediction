@@ -1,6 +1,6 @@
 #Importing Libraries
 
-from pandas.testing import assert_frame_equal
+import os
 import pandas as pd
 import numpy as np
 import sklearn
@@ -26,7 +26,10 @@ def stringToInt(string):
 
 #Read the file
 df1 = pd.read_csv(r"C:\Users\preet\Downloads\Datasets (1)\final data set\Bengaluru_House_Data.csv")
-df1
+if os.path.exists('df1')==True:
+    print('File exists')
+else:
+    print('File does not exists')
 
 
 #shape of data

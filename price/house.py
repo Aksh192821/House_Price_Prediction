@@ -1,4 +1,5 @@
 #Importing Libraries
+import pandas as pd
 import pandas.util.testing as tm
 import numpy as np
 import sklearn

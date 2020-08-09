@@ -1,5 +1,5 @@
 #Importing Libraries
-import pandas as pd
+
 import pandas.util.testing as tm
 import numpy as np
 import sklearn
@@ -24,7 +24,7 @@ def stringToInt(string):
 
 
 #Read the file
-df1 = pd.read_csv(r"C:\Users\preet\Downloads\Datasets (1)\final data set\Bengaluru_House_Data.csv")
+df1 = tm.read_csv(r"C:\Users\preet\Downloads\Datasets (1)\final data set\Bengaluru_House_Data.csv")
 df1
 
 

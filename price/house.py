@@ -1,6 +1,6 @@
 #Importing Libraries
 
-import os
+
 import pandas as pd
 import numpy as np
 import sklearn
@@ -26,11 +26,6 @@ def stringToInt(string):
 
 #Read the file
 df1 = pd.read_csv(r"C:\Users\preet\Downloads\Datasets (1)\final data set\Bengaluru_House_Data.csv")
-if os.path.exists('df1')==True:
-    print('File exists')
-else:
-    print('File does not exists')
-
 
 #shape of data
 df1.shape
